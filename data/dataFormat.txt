@@ -1,0 +1,21 @@
+CardAddressRelationships.csv
+id,cardId,shipAddress,shipCity,shipState,shipZip,shipCountry,billAddress,billCity,billState,billZip,billCountry
+
+CardAdvanced.csv
+id,cardId,name,phone,email,credit
+
+CardBasic.csv
+id,card,expiration,cvv,zip
+
+CardChargebackHistory.csv
+id,cardId,detail
+
+CardCriminalHistory.csv
+id,cardId,detail
+
+CardFraudHistory.csv
+id,cardId,detail
+
+
+NOTE:
+	- cardId refers to id field in cardBasic.csv

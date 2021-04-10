@@ -1,0 +1,31 @@
+id,cardId,shipAddress,shipCity,shipState,shipZip,shipCountry,billAddress,billCity,billState,billZip,billCountry
+0,0,,,,,US,10932 Bigge Rd,Menlo Park,CA,94025,US
+1,1,,,,,US,4469 Sherman Street,Goff,KS,66428,US
+2,2,,,,,US,309 63rd St. #411,Oakland,CA,94618,US
+3,3,,,,,US,2183 Roy Alley,Centennial,CO,80112,US
+4,4,,,,,US,3181 White Oak Drive,Kansas City,MO,66215,US
+5,5,,,,,US,3097 Better Street,Kansas City,MO,66215,US
+6,6,,,,,US,539 Kyle Street,Wood River,NE,68883,US
+7,7,,,,,US,570 Nancy Street,Morrisville,NC,27560,US
+8,8,,,,,US,1074 Small Street,New York,NY,10011,US
+9,9,,,,,US,4222 Bedford Street,Jasper,AL,35501,US
+10,10,,,,,US,3414 Gore Street,Houston,TX,77002,US
+11,11,,,,,US,515 Hillside Drive,Lake Charles,LA,70629,US
+12,12,,,,,US,4032 Arron Smith Drive,Kaunakakai,HI,96748,US
+13,13,,,,,US,2865 Driftwood Road,San Jose,CA,95129,US
+14,14,,,,,US,3500 Diane Street,San Luis Obispo,CA,93401,US
+15,15,,,,,US,4986 Chapel Street,Houston,TX,77077,US
+16,16,,,,,US,456 Oral Lake Road,Minneapolis,MN,55401,US
+17,17,,,,,US,582 Thrash Trail,Dallas,TX,75247,US
+18,18,,,,,US,1620 Maxwell Street,East Hartford,CT,6108,US
+19,19,,,,,US,2489 O Conner Street,Pascagoula,MS,39567,US
+20,20,,,,,US,4696 Retreat Avenue,Birmingham,AL,35209,US
+21,21,,,,,US,173 Lunetta Street,Fort Worth,TX,76104,US
+22,22,,,,,US,1843 Olive Street,Toledo,OH,43602,US
+23,23,,,,,US,4899 University Hill Road,Springfield,IL,62701,US
+24,24,,,,,US,1517 Gambler Lane,Houston,TX,77006,US
+25,25,,,,,US,4254 Walkers Ridge Way,Gardena,CA,90248,US
+26,26,,,,,US,3396 Nancy Street,Raleigh,NC,27612,US
+27,27,,,,,US,4213 High Meadow Lane,Avoca,PA,18641,US
+28,28,,,,,US,2877 Glen Street,Paducah,KY,42003,US
+29,29,,,,,US,784 Beechwood Avenue,Piscataway,NJ,8854,US

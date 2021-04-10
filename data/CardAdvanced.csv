@@ -1,0 +1,31 @@
+id,cardId,firstName,lastName,phone,email,credit
+0,0,Johnson,White,408 496-7223,jwhite@domain.com,800
+1,1,Ashley,Borden,785-939-6046,aborden@domain.com,750
+2,2,Marjorie,Green,415 986-7020,mgreen@domain.com,600
+3,3,Jerome,Munsch,303-901-6123,jmunsch@domain.com,500
+4,4,Robert,Aragon,816-645-6936,raragon@domain.com,760
+5,5,Jacki,Russell,913-227-6106,jrussell@domain.com,300
+6,6,Lillian,Venson,308-583-8759,lvenson@domain.com,400
+7,7,Thomas,Conley,919-656-6779,tconley@domain.com,600
+8,8,Charles,Jackson,212-847-4915,cjackson@domain.com,825
+9,9,Susan,Davis,205-221-9156,sdavis@domain.com,712
+10,10,Gail,Watson,713-547-3414,gwatson@domain.com,600
+11,11,Lisa,Garrison,337-965-2982,lgarrison@domain.com,700
+12,12,Julie,Renfro,808-560-1638,jrenfro@domain.com,720
+13,13,James,Heard,408-370-0031,jheard@domain.com,715
+14,14,Danny,Reyes,805-369-0464,dreyes@domain.com,730
+15,15,Mark,Hall,281-597-5517,mhall@domain.com,780
+16,16,Monte,Mceachern,952-412-3707,mmceachern@domain.com,650
+17,17,Christopher,Diaz,903-624-9156,cdiaz@domain.com,525
+18,18,Tim,Lowe,860-755-0293,tlowe@domain.com,764
+19,19,Lynette,Oyola,228-938-2056,loyola@domain.com,723
+20,20,Adriane,Morrison,205-276-1807,amorrison@domain.com,712
+21,21,Thomas,Santos,940-859-1393,tsantos@domain.com,712
+22,22,Victor,Faulkner,419-340-3832,vfaulkner@domain.com,700
+23,23,Albert,Iorio,217-615-6419,aiorio@domain.com,699
+24,24,Teresa,Kaminski,281-906-2148,tkaminski@domain.com,580
+25,25,Rick,Edwards,626-991-3620,redwards@domain.com,786
+26,26,Stacey,Peacock,919-571-2339,speacock@domain.com,615
+27,27,Agnes,Nelson,570-480-8704,anelson@domain.com,750
+28,28,Mireille,Townsend,270-408-7254,mtownsend@domain.com,679
+29,29,Rebecca,Zwick,908-814-6733,rzwick@domain.com,733
