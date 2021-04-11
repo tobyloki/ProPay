@@ -11,7 +11,6 @@ import org.json4s._
 import org.json4s.jackson.JsonMethods._
 
 import java.io.{BufferedWriter, File, FileWriter}
-import java.text.SimpleDateFormat
 import java.time.LocalDate
 import java.util.Properties
 
@@ -85,7 +84,7 @@ object SparkStreamingConsumerKafka {
     //      println("Line:");
     // fields.foreach(println)
     // debug over
-    FullData(fields(0), fields(1), fields(2), fields(3), fields(4),
+    FullData(fields(0), fields(1), fields(2), fields(3), fields(4).replaceAll("-",""),
       fields(5), fields(6), fields(7), fields(8), fields(9), fields(10), fields(11), fields(12), fields(13), fields(14), fields(15), fields(16), fields(17),fields(18))
   }
 
@@ -202,8 +201,7 @@ object SparkStreamingConsumerKafka {
     //Basic Test
     println("row: "+row.toString)
     val currentDate = LocalDate.now()
-    val expDateFormat = new SimpleDateFormat("MM/yy")
-    //currentDate.Config
+    val expirationDate = "20" + row.expiration.substring(3) + "-" + row.expiration.substring(0, 2) + "-01"
     if(row.card == "" || !luhnAlgorithm(row.card.toLong)  //verify valid card number
       || row.cvv.toInt >= 1000  || row.cvv.toInt <= 99  //verify cvv is 3 digits
       || !validAddress(row.billingAddress)  //verify valid address
@@ -211,7 +209,7 @@ object SparkStreamingConsumerKafka {
       || row.billingCountry == ""
       || row.billingZip.toInt >= 100000  || row.billingZip.toInt <= 9999  //verify zip is 5 digits
       || row.expiration == ""
-      || LocalDate.parse(row.expiration).compareTo(currentDate) < 0 //verify not expired
+      || LocalDate.parse(expirationDate).compareTo(currentDate) < 0 //verify not expired
     ){
       return (0,false)
     }
@@ -220,7 +218,7 @@ object SparkStreamingConsumerKafka {
     if(row.nameOnCard != ""){
       score += 5
     }
-    if(row.phone.toInt > 99999999 && row.phone.toInt < 1000000000){ //9 digits
+    if(row.phone.toInt > 999999999 && row.phone.toInt < 10000000000L){ //9 digits
       score += 5
     }
     if(row.email != ""){

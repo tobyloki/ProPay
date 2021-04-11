@@ -1,6 +1,4 @@
 import org.apache.kafka.clients.producer.{KafkaProducer, ProducerRecord}
-
-
 import java.util.Properties
 
 /** Count up how many of each word occurs in a book, using regular expressions. */
@@ -15,7 +13,6 @@ object SampleDataGenerator {
     props.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer")
     props.put("acks","all")
     val producer = new KafkaProducer[String, String](props)
-    //val t = "{\"name\":\"JonM\",\"card\":5555555555,\"cvv\":888,\"expiration\":\"exp\",\"billingAddress\":\"bAddr\",\"billingCountry\":\"bCtry\",\"billingState\":\"bSt\",\"billingZip\":\"bZip\",\"shippingAddress\":\"sAddr\",\"shippingCountry\":\"sCtry\",\"shippingState\":\"sSt\",\"shippingZip\":\"SZip\"}"
     val t = "{\"nameOnCard\":\"jon\",\"card\":\"654654654\",\"cvv\":\"444\",\"expiration\":\"06/97\",\"phone\":\"5558794\",\"email\":\"test@em.com\",\"billingName\":\" bilname\",\"billingAddress\":\"biladdr\",\"billingAddress2\":\"billaddr\",\"billingCity\":\"bilcty\",\"billingCountry\":\"bilcntry\",\"billingState\":\"bilst\",\"billingZip\":\"billzip\",\"shippingAddress\":\"shipaddr\",\"shippingAddress2\":\"shipaddr2\",\"shippingCity\":\"shipcty\",\"shippingCountry\":\"shipctry\",\"shippingState\":\"shipst\",\"shippingZip\":\"shipzip\"}"
     val topic = "TestTopic"
     while(1==1){
